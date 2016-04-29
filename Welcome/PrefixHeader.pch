@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  Welcome
+//
+//  Created by yulingsong on 16/4/29.
+//  Copyright © 2016年 yulingsong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define YLSScreenW [UIScreen mainScreen].bounds.size.width
+#define YLSScreenH [UIScreen mainScreen].bounds.size.height
+
+//图片名字
+#define YLSImageWithName(name) [UIImage imageNamed:name]
+
+
+#endif /* PrefixHeader_pch */
